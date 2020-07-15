@@ -4,6 +4,14 @@ y lo muestro por 'ID' al presionar el botón 'mostrar'
 */
 function mostrar()
 {
-	alert("ok");
+	//reservo espacio en memoria para guardar el nombre
+	let nombre;
+
+    //guardo en la variable nombre el texto que escribe el usuario
+	nombre=prompt("mensaje");
+
+	//copio en nombre que tengo guardado en la variable nombre dentro de la caja de texto
+	document.getElementById("txtIdNombre").value=nombre;
+	
 }
 
