@@ -1,16 +1,17 @@
 function mostrar()
 {
-	
+	//definir variable
 	var mesDelAño 
+	// buscar dato en el html
 	mesDelAño=document.getElementById("txtIdMes").value;
-
+    //switch
 	switch(mesDelAño){
 		
 		case "Febrero":
-		alert("es un mes que tiene 29 dias")
-		break;
+			alert("tiene 28 dias")
+			break;
 		default:
-			alert("este tiene 30 dias o mas")
+			alert("tiene 30 dias o mas")
 			
 	}
 	
