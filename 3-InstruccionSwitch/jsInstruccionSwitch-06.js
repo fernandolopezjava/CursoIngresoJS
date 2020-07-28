@@ -4,7 +4,7 @@ function mostrar()
 
 	horaDelDia=parseInt(document.getElementById("txtIdHora").value)
 	
-	switch(horaDelDia){
+	/*switch(horaDelDia){
 		
 		case 1:
 		case 2:
@@ -40,7 +40,26 @@ function mostrar()
 			break;
 		default:
 			alert("no esta dentro de la hora")				
-	}
+	}*/
 		
+		if(horaDelDia>=7 && horaDelDia <=11){
+			 alert("es de mañana")
+		}
+		 else if(horaDelDia>=12 && horaDelDia <=19){
+			 alert("es de tarde")
+		 }
+		  else if(horaDelDia>=20 && horaDelDia <=24){
+            alert("es de noche")
+		  }
+		  else if(horaDelDia>=00 && horaDelDia <=06){
+			alert("es de noche")
+		  }
+		  else{
+			  alert("la hora no existe")
+		  }
 
+		  
+
+
+		  
 }

@@ -20,6 +20,18 @@ function mostrar()
 
 
 	}
-
-
-}
+	   /* if(destino== "bariloche"){
+		   alert("esta al oeste")
+	   }
+		  
+		else if (destino=="Ushuaia"){
+			alert("esta al sur")
+		}
+		else if (destino=="Cataratas"){
+			alert("esta al norte")
+		} 
+        else if (destino=="Mar del plata "){
+			alert("esta al este")
+		}
+		*/
+} 

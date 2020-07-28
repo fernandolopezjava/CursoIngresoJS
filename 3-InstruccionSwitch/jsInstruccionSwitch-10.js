@@ -28,21 +28,8 @@ function mostrar()
 			else{
 				alert("no se viaja")
 				break;
-		}
+			}
 		
-		 case "Verano":
-		    if ( destino == "Cordoba"){
-				alert("se viaja")
-			    break;
-		}
-			else if ( destino == "Cataratas"){
-				alert("se viaja")
-				break;
-		}
-			else{
-				alert("no se viaja")
-				break;
-		}
 		 case "Primavera":
 			if( destino == "Bariloche"){
 				alert("no se viaja")

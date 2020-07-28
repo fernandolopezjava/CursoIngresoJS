@@ -14,5 +14,10 @@ function mostrar()
 			alert("hace calor")
 			break;
 	}
-
+   /* if(destino== "Bariloche" || destino ==Ushuaia){
+        alert("hace frio")
+   }
+      if(destino== "Mar del plata" || destino ==Cataratas){
+		alert("hace calor")
+    } */
 }
