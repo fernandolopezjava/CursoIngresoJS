@@ -6,20 +6,20 @@ function mostrar()
 {
 	let seguir = 'si';
 	let numero;
-	let cont=0
-	let acumulador=0
+	let i=0
+	let contador =0
 	
 	while(seguir =='si'){
 		numero = prompt("ingrese un numero aqui");
 		numero = parseInt(numero)
-		acumulador = acumulador + numero
+		contador= contador + numero
 		seguir= prompt("quiere ingresar otro numero");
-		cont++
+		i++
 	}
 	 alert("se cierra la operacion")
 
-	 document.getElementById("txtIdSuma").value = acumulador
-	 document.getElementById("txtIdPromedio").value = acumulador/cont
+	 document.getElementById("txtIdSuma").value = contador
+	 document.getElementById("txtIdPromedio").value = contador/i
 }
 /*
   do{
